@@ -1,5 +1,10 @@
 [project]
-dependencies = ["taplo==0.10.0"]
+dependencies = [
+    "taplo",
+]
 name = "pre_commit_placeholder_package"
 requires-python = ">=3.8"
 version = "0.0.0"
+
+[tool.uv.sources]
+taplo = { git = "https://github.com/wadhah101/taplo.git" }
